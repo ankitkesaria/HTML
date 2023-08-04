@@ -1,0 +1,21 @@
+.sidebar
+{
+    position: fixed;
+    right:0px;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height:100px;
+}
+
+.sidebar1, .sidebar2, .sidebar3
+{
+    border-bottom: 1px;
+    border-color: white;
+
+}
+
+.sidebar1-icon, .sidebar2-icon, .sidebar3-icon
+{
+    width:150px;
+    background-color: black;
+}
